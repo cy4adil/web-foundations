@@ -10,3 +10,12 @@
 
 <hr>
 
+### Selectors and Visuals:
+
+- We have several types of selectors as shown below:
+    - Type Selector: also known as element or tag selector.
+    - Class Selector: selection by class prepended by period.
+    - ID selector: selection by id attribute prepended by # sign.
+    - Attribute Selector:
+        - Attributes can be selected the same way as type, class, id.
+
