@@ -24,3 +24,5 @@ img[href='*adil'] {
   color: 'blue';
 }
 ```
+
+- We can use [Web safe fonts](https://www.cssfontstack.com/)
