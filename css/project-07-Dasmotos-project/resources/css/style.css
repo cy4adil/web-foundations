@@ -1,0 +1,39 @@
+.font-helv {
+    font-family: Helvetica;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.header-content {
+    background-image: url('../images/pattern.jpeg');
+}
+
+.header-content h1 {
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+}
+
+.brushes h2 {
+    color: white;
+    font-size: 32px;
+    background-color: mediumspringgreen;
+}
+
+.rate {
+    color: blue;
+}
+
+.frame h2 {
+    font-size: 32px;
+    color: white;
+    background-color: lightcoral;
+}
+
+.finnish h2 {
+    color: white;
+    background-color: skyblue;
+    font-size: 32px;
+}
