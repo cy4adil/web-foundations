@@ -86,3 +86,39 @@ Preview: Docs The visibility property in CSS determines whether an element is vi
 - and the division of box properties becaomes as shown in pic below
 
 <img src="https://static-assets.codecademy.com/Courses/Learn-CSS/Border-Box/htmlcss1-diagram__borderbox.svg">
+
+
+
+- Complete list of <b>Block Element</b> can be found here on [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content)
+
+## float:
+
+- float can be used to move an element to far left or to far right.
+- Mostly float is used to wrap text around an image.
+- but moving elemeent to left and right is better suited for tools like grid and flexbox.
+
+- Float is often used with two vlues:
+    - left -- moves, or floats element as far left as possible.
+    - right -- moves element as far right as possible.
+- float worked on static and relative elemtns.
+
+- floated element must have width specified, it is must thing, otherwise element will assume the full width of its containeing element, and chanfging the float value will not yeild any visible results.
+
+
+## clear:
+
+- float property can also be used to float multuple elements at once.
+- However, when multiple floated elements have different height, it can affect their layout on the page and elements can bump into each other and not allowed elements to properly move to left or right.
+
+- The clear property specifies how elements should behave when they bump into each other on the page.
+
+- It can take following values:
+
+  - left —  the left side of the element will not touch any other element within the same containing element.
+
+  - right —  the right side of the element will not touch any other element within the same containing element.
+
+  - both —  neither side of the element will touch any other element within the same containing element.
+
+  - none —  the element can touch either side.
+
