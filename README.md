@@ -122,3 +122,42 @@ Preview: Docs The visibility property in CSS determines whether an element is vi
 
   - none —  the element can touch either side.
 
+# Deploying a Website:
+
+## What is Web hosting??
+
+ - Below is a video explained about what web hosting is, and what are types of web hosting and how to levergae it
+## Watch video for web hosting [Watch demo](https://cdn1.percipio.com/1791697969_c7e7e9c08f0c2241a50d35f0b6e5e50d74d3750b/5ffe980d-7880-47a2-ad83-46e86d4019b1/720_1200kps,540_600kps,360_400kps,180_64kps.m3u8)
+
+## Couple of Web hosting we can easily use is as follows:
+
+<img src="./cloud_options.png">
+
+<br><br><br><br><br>
+<hr>
+
+# JAVASCRIPT
+
+
+## Evolution of JavaScript
+
+<img src="https://content.codecademy.com/courses/javascript-article-assets/javascript_timeline.svg">
+
+
+## Short-Circuit Evaluation:
+
+- We can assign truthy value if string is not empty and assign default value if string is empty using OR operator, this phenomenon is known as short-circuit evaluation. As shown in the exmaple below:
+
+```javaScript
+let username = '';
+let defaultName = username || 'stranger';
+console.log(defaultName);
+```
+
+## Ternary Operator:
+
+- We can replace if-else with ternary Operator
+
+```javaScript
+
+```
