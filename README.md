@@ -161,3 +161,59 @@ console.log(defaultName);
 ```javaScript
 
 ```
+
+
+## Function Expressions
+
+- A function expression is another way of defining a function.
+
+- Here, we use function keyword with no name of function which is called anonymous function.
+
+- Function expression is often stored in a variable in order to refer to it.
+
+- It is common practice to use const as the keyword to declare a variable to store function expression.
+
+```javaScript
+
+const plantNeedsWater = function(day) {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+```
+
+
+## Arrow Function
+
+- We can omit function keyword and use arrow after paranthese to make the function expression a little shorter.
+
+```javaScript
+
+const plantNeedsWater = (day) {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+```
+
+## Concise body Arrow Function
+
+- Javascript provide several ways of refactor arrow function syntax.
+
+- most condensed form of the function is known as concise body.
+
+1) Functions that takes only one parameter does not need paranthese. Howeever, if funciton takes zero or multiple parameters, then paranthese are required.
+
+2) A function body composed of a single line block dose not need curly braces. Without the curly braces, it acts as a return keyword as well and wahtever the line evaluates will be automatically returned. The content of the block should immediatly follow the arrow =>, then the return keyword can be removed. This is refered to as implicit return.
+
+```javaScript
+
+const plantNeedsWater = (day) => day === 'Wednesday' ? true : false;
+
+```
